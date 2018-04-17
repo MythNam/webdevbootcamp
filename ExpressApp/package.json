@@ -1,0 +1,14 @@
+{
+  "name": "demoexpressapp",
+  "version": "1.0.0",
+  "description": "A demo app using express module in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Son Dang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
