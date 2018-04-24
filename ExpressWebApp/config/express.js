@@ -29,6 +29,8 @@ module.exports = function() {
     app.set("view engine", "ejs");
     
     require("../app/routes/index.server.routes.js") (app);
+    require("../app/routes/users.server.routes.js") (app);
+    
     //Configure Express to Use the public folder
     app.use(express.static("./public"));
     
